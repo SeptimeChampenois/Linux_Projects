@@ -1,6 +1,6 @@
 ps aux | grep -i knock
 #root         620  0.0  0.2   8504  1212 ?        Ss   20:55   0:00 /usr/sbin/knockd -i lo
-@admin        765  0.0  0.1   5132   700 pts/1    S<+  20:56   0:00 grep -i knock
+#@admin        765  0.0  0.1   5132   700 pts/1    S<+  20:56   0:00 grep -i knock
 cat /etc/knockd.conf 
 # /etc/knockd.conf: Permission denied
 ls -al /etc/knockd.conf 
